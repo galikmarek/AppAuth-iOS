@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /*! @brief iOS specific convenience methods for @c OIDAuthState.
  */
-@interface OIDAuthState (IOS)
+@interface OIDAuthState (ios)
 
 /*! @brief Convenience method to create a @c OIDAuthState by presenting an authorization request
         and performing the authorization code exchange in the case of code flow requests. For

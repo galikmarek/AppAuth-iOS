@@ -26,7 +26,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@implementation OIDAuthorizationService (IOS)
+@implementation OIDAuthorizationService (ios)
 
 + (id<OIDExternalUserAgentSession>) presentAuthorizationRequest:(OIDAuthorizationRequest *)request
     presentingViewController:(UIViewController *)presentingViewController

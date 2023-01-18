@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /*! @brief Provides iOS specific authorization request handling.
  */
-@interface OIDAuthorizationService (IOS)
+@interface OIDAuthorizationService (ios)
 
 /*! @brief Perform an authorization flow, presenting an appropriate browser for the user to
         authenticate.

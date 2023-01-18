@@ -24,7 +24,7 @@
 #import "OIDExternalUserAgentIOS.h"
 #import "OIDExternalUserAgentCatalyst.h"
 
-@implementation OIDAuthState (IOS)
+@implementation OIDAuthState (ios)
 
 + (id<OIDExternalUserAgentSession>)
     authStateByPresentingAuthorizationRequest:(OIDAuthorizationRequest *)authorizationRequest
